@@ -64,4 +64,28 @@ A Java OOP simulation game where a gang of criminals attempts repeated heists ac
 
 Requires **Java 17+** (uses `Random.nextDouble(min, max)` and `Random.nextInt(min, max)`)
 
+## Sample Output
+ 
+```
+Criminal:
+Name: Tim
+Nickname: Snake
+...
+Round 1---------------------------------------------------
+Robbery was successful in Bank
+They stolen the following items:
+money
+safe
+Round 2---------------------------------------------------
+Robbery was not successful in House
+Stolen amount: 5032200.0 was not recovered. The criminals escaped.
+Round 3---------------------------------------------------
+Robbery was successful in Office
+They stolen the following items:
+stapler
+printer
+Stolen amount: 5033320.0 was returned.
+The criminals have been caught.
+```
+ 
 
